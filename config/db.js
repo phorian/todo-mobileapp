@@ -1,5 +1,5 @@
 const Mongoose = require("mongoose")
-const { mountpath } = require("../app")
+//const app = require("../app")
 
 const connectDB = async () => {
     await Mongoose.connect(process.env.DATABASE_URI)
